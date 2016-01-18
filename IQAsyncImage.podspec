@@ -6,11 +6,12 @@ Pod::Spec.new do |s|
 	s.screenshots = "https://raw.githubusercontent.com/hackiftekhar/IQAsyncImage/master/Screenshot/Screenshot.png"
 	s.license = 'MIT'
 	s.author = { "Iftekhar Qurashi" => "hack.iftekhar@gmail.com" }
-	s.platform = :ios, '6.0'
+	s.platform = :ios, '7.0'
 	s.source = { :git => "https://github.com/hackiftekhar/IQAsyncImage.git", :tag => "v1.0.0" }
     s.source_files = 'IQAsyncImage/**/*.{h,m}'
     s.dependency 'IQURLConnection', '1.0.0'
     s.dependency 'IQNetworkTaskManager', '1.0.0'
     s.dependency 'IQCircularProgressView', '1.0.0'
-	s.requires_arc = true
+
+    s.requires_arc = true
 end
