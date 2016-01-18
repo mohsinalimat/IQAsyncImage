@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF5F7431CCFF1E5ACFD9B60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA70AA06A46F8EDA1D9DBC56 /* libPods.a */; };
+		4CBB35061C4B7B15007A946E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35051C4B7B15007A946E /* main.m */; };
+		4CBB35091C4B7B15007A946E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35081C4B7B15007A946E /* AppDelegate.m */; };
+		4CBB350C1C4B7B15007A946E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB350B1C4B7B15007A946E /* ViewController.m */; };
+		4CBB350F1C4B7B15007A946E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB350D1C4B7B15007A946E /* Main.storyboard */; };
+		4CBB35111C4B7B15007A946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB35101C4B7B15007A946E /* Assets.xcassets */; };
+		4CBB35141C4B7B15007A946E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB35121C4B7B15007A946E /* LaunchScreen.storyboard */; };
+		4CBB35571C4BF140007A946E /* IQAsyncButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35491C4BF140007A946E /* IQAsyncButton.m */; };
+		4CBB35581C4BF140007A946E /* IQAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB354C1C4BF140007A946E /* IQAsyncImageView.m */; };
+		4CBB35591C4BF140007A946E /* IQImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB354F1C4BF140007A946E /* IQImageDownloadManager.m */; };
+		4CBB355A1C4BF140007A946E /* IQImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35511C4BF140007A946E /* IQImageDownloadTask.m */; };
+		4CBB355B1C4BF140007A946E /* UIColor+IQRandomTextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35541C4BF140007A946E /* UIColor+IQRandomTextColor.m */; };
+		4CBB355C1C4BF140007A946E /* UIImage+IQTextPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB35561C4BF140007A946E /* UIImage+IQTextPlaceholder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEE79C2BCF961AB88448343 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4CBB35011C4B7B15007A946E /* IQAsyncImage Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQAsyncImage Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBB35051C4B7B15007A946E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CBB35071C4B7B15007A946E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CBB35081C4B7B15007A946E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CBB350A1C4B7B15007A946E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CBB350B1C4B7B15007A946E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CBB350E1C4B7B15007A946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBB35101C4B7B15007A946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CBB35131C4B7B15007A946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CBB35151C4B7B15007A946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBB35481C4BF140007A946E /* IQAsyncButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAsyncButton.h; sourceTree = "<group>"; };
+		4CBB35491C4BF140007A946E /* IQAsyncButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAsyncButton.m; sourceTree = "<group>"; };
+		4CBB354B1C4BF140007A946E /* IQAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAsyncImageView.h; sourceTree = "<group>"; };
+		4CBB354C1C4BF140007A946E /* IQAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAsyncImageView.m; sourceTree = "<group>"; };
+		4CBB354E1C4BF140007A946E /* IQImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQImageDownloadManager.h; sourceTree = "<group>"; };
+		4CBB354F1C4BF140007A946E /* IQImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQImageDownloadManager.m; sourceTree = "<group>"; };
+		4CBB35501C4BF140007A946E /* IQImageDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQImageDownloadTask.h; sourceTree = "<group>"; };
+		4CBB35511C4BF140007A946E /* IQImageDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQImageDownloadTask.m; sourceTree = "<group>"; };
+		4CBB35531C4BF140007A946E /* UIColor+IQRandomTextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IQRandomTextColor.h"; sourceTree = "<group>"; };
+		4CBB35541C4BF140007A946E /* UIColor+IQRandomTextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IQRandomTextColor.m"; sourceTree = "<group>"; };
+		4CBB35551C4BF140007A946E /* UIImage+IQTextPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IQTextPlaceholder.h"; sourceTree = "<group>"; };
+		4CBB35561C4BF140007A946E /* UIImage+IQTextPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IQTextPlaceholder.m"; sourceTree = "<group>"; };
+		F553718AFEA7E4A0813DD124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA70AA06A46F8EDA1D9DBC56 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBB34FE1C4B7B15007A946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5F7431CCFF1E5ACFD9B60 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBB34F81C4B7B15007A946E = {
+			isa = PBXGroup;
+			children = (
+				4CBB35461C4BF140007A946E /* IQAsyncImage */,
+				4CBB35031C4B7B15007A946E /* IQAsyncImage Demo */,
+				4CBB35021C4B7B15007A946E /* Products */,
+				90FEDB04B6FACFE4A399741D /* Pods */,
+				FF6DBBB4D5F455F0C4006E3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBB35021C4B7B15007A946E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35011C4B7B15007A946E /* IQAsyncImage Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBB35031C4B7B15007A946E /* IQAsyncImage Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35071C4B7B15007A946E /* AppDelegate.h */,
+				4CBB35081C4B7B15007A946E /* AppDelegate.m */,
+				4CBB350A1C4B7B15007A946E /* ViewController.h */,
+				4CBB350B1C4B7B15007A946E /* ViewController.m */,
+				4CBB350D1C4B7B15007A946E /* Main.storyboard */,
+				4CBB35101C4B7B15007A946E /* Assets.xcassets */,
+				4CBB35121C4B7B15007A946E /* LaunchScreen.storyboard */,
+				4CBB35151C4B7B15007A946E /* Info.plist */,
+				4CBB35041C4B7B15007A946E /* Supporting Files */,
+			);
+			path = "IQAsyncImage Demo";
+			sourceTree = "<group>";
+		};
+		4CBB35041C4B7B15007A946E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35051C4B7B15007A946E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBB35461C4BF140007A946E /* IQAsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35471C4BF140007A946E /* IQAsyncButton */,
+				4CBB354A1C4BF140007A946E /* IQAsyncImageView */,
+				4CBB354D1C4BF140007A946E /* IQImageDownloadManager */,
+				4CBB35521C4BF140007A946E /* UIImage+TextPlaceholder */,
+			);
+			path = IQAsyncImage;
+			sourceTree = "<group>";
+		};
+		4CBB35471C4BF140007A946E /* IQAsyncButton */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35481C4BF140007A946E /* IQAsyncButton.h */,
+				4CBB35491C4BF140007A946E /* IQAsyncButton.m */,
+			);
+			path = IQAsyncButton;
+			sourceTree = "<group>";
+		};
+		4CBB354A1C4BF140007A946E /* IQAsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB354B1C4BF140007A946E /* IQAsyncImageView.h */,
+				4CBB354C1C4BF140007A946E /* IQAsyncImageView.m */,
+			);
+			path = IQAsyncImageView;
+			sourceTree = "<group>";
+		};
+		4CBB354D1C4BF140007A946E /* IQImageDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB354E1C4BF140007A946E /* IQImageDownloadManager.h */,
+				4CBB354F1C4BF140007A946E /* IQImageDownloadManager.m */,
+				4CBB35501C4BF140007A946E /* IQImageDownloadTask.h */,
+				4CBB35511C4BF140007A946E /* IQImageDownloadTask.m */,
+			);
+			path = IQImageDownloadManager;
+			sourceTree = "<group>";
+		};
+		4CBB35521C4BF140007A946E /* UIImage+TextPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB35531C4BF140007A946E /* UIColor+IQRandomTextColor.h */,
+				4CBB35541C4BF140007A946E /* UIColor+IQRandomTextColor.m */,
+				4CBB35551C4BF140007A946E /* UIImage+IQTextPlaceholder.h */,
+				4CBB35561C4BF140007A946E /* UIImage+IQTextPlaceholder.m */,
+			);
+			path = "UIImage+TextPlaceholder";
+			sourceTree = "<group>";
+		};
+		90FEDB04B6FACFE4A399741D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F553718AFEA7E4A0813DD124 /* Pods.debug.xcconfig */,
+				3BEE79C2BCF961AB88448343 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF6DBBB4D5F455F0C4006E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA70AA06A46F8EDA1D9DBC56 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBB35001C4B7B15007A946E /* IQAsyncImage Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBB35181C4B7B15007A946E /* Build configuration list for PBXNativeTarget "IQAsyncImage Demo" */;
+			buildPhases = (
+				EBAE56565573858EF0AB0FFB /* Check Pods Manifest.lock */,
+				4CBB34FD1C4B7B15007A946E /* Sources */,
+				4CBB34FE1C4B7B15007A946E /* Frameworks */,
+				4CBB34FF1C4B7B15007A946E /* Resources */,
+				63E80AAF3544FE3609D94B7F /* Embed Pods Frameworks */,
+				F85318C489F9621FDA822CC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQAsyncImage Demo";
+			productName = "IQAsyncImage Demo";
+			productReference = 4CBB35011C4B7B15007A946E /* IQAsyncImage Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBB34F91C4B7B15007A946E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Iftekhar;
+				TargetAttributes = {
+					4CBB35001C4B7B15007A946E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4CBB34FC1C4B7B15007A946E /* Build configuration list for PBXProject "IQAsyncImage Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBB34F81C4B7B15007A946E;
+			productRefGroup = 4CBB35021C4B7B15007A946E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBB35001C4B7B15007A946E /* IQAsyncImage Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBB34FF1C4B7B15007A946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB35141C4B7B15007A946E /* LaunchScreen.storyboard in Resources */,
+				4CBB35111C4B7B15007A946E /* Assets.xcassets in Resources */,
+				4CBB350F1C4B7B15007A946E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63E80AAF3544FE3609D94B7F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAE56565573858EF0AB0FFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F85318C489F9621FDA822CC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBB34FD1C4B7B15007A946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB350C1C4B7B15007A946E /* ViewController.m in Sources */,
+				4CBB35091C4B7B15007A946E /* AppDelegate.m in Sources */,
+				4CBB35571C4BF140007A946E /* IQAsyncButton.m in Sources */,
+				4CBB355A1C4BF140007A946E /* IQImageDownloadTask.m in Sources */,
+				4CBB35591C4BF140007A946E /* IQImageDownloadManager.m in Sources */,
+				4CBB355B1C4BF140007A946E /* UIColor+IQRandomTextColor.m in Sources */,
+				4CBB355C1C4BF140007A946E /* UIImage+IQTextPlaceholder.m in Sources */,
+				4CBB35581C4BF140007A946E /* IQAsyncImageView.m in Sources */,
+				4CBB35061C4B7B15007A946E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CBB350D1C4B7B15007A946E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB350E1C4B7B15007A946E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBB35121C4B7B15007A946E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB35131C4B7B15007A946E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBB35161C4B7B15007A946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CBB35171C4B7B15007A946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBB35191C4B7B15007A946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F553718AFEA7E4A0813DD124 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IQAsyncImage Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iftekhar.IQAsyncImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CBB351A1C4B7B15007A946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEE79C2BCF961AB88448343 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IQAsyncImage Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iftekhar.IQAsyncImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBB34FC1C4B7B15007A946E /* Build configuration list for PBXProject "IQAsyncImage Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB35161C4B7B15007A946E /* Debug */,
+				4CBB35171C4B7B15007A946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBB35181C4B7B15007A946E /* Build configuration list for PBXNativeTarget "IQAsyncImage Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB35191C4B7B15007A946E /* Debug */,
+				4CBB351A1C4B7B15007A946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBB34F91C4B7B15007A946E /* Project object */;
+}

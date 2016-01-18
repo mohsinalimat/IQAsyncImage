@@ -1,0 +1,4 @@
+
+pod 'IQNetworkTaskManager'
+pod 'IQCircularProgressView'
+
